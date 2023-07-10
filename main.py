@@ -14,8 +14,8 @@ class PaymentYookassa:
     def get_pay_link(self):
         """Creating a payment instance, returning information about the created payment.  """
 
-        Configuration.account_id = "ACCOUNT_ID"
-        Configuration.secret_key = "SECRET_KEY" 
+        Configuration.account_id = "YOUR_ACCOUNT_ID"
+        Configuration.secret_key = "YOUR_SECRET_KEY" 
 
         #creating a payment
         payment = Payment.create({
